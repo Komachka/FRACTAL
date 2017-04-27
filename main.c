@@ -60,6 +60,9 @@ void scale(void **param, int direction);
 
 void herak_julia_with_dif_set(void **param, int x, int y);
 
+void herack_julia_key(t_img *img, int d_move_x, int d_move_y, int d_zoom, double n_x, double n_y);
+int mouse_move(int x, int y, void *param);
+
 int     my_key_funk(int keykode, void **param)
 {
 
@@ -167,9 +170,16 @@ int main()
     mlx_hook(w, 2, 1L << 1, my_key_funk, params);
 
     mlx_mouse_hook(w, button_funk, params);
+    mlx_hook(w, 6, 0, mouse_move, params);
 
     mlx_loop(mlx);
 
+}
+
+int mouse_move(int x, int y, void *param)
+{
+    herak_julia_with_dif_set(param, x, y);
+    return (0);
 }
 
 int button_funk(int button, int x, int y, void *param)
@@ -179,8 +189,10 @@ int button_funk(int button, int x, int y, void *param)
         scale(param, UP);
     else if (button == 5 && 0 <= x && x <= WIDTH_I - 1)
         scale(param, DOWN);
-   // else if (button == 1)
-    //    herak_julia_with_dif_set(param, x/100, y/100);
+    else if (button == 1) {
+
+        herak_julia_with_dif_set(param, x, y);
+    }
 }
 
 void herak_julia_with_dif_set(void **param, int x, int y)
@@ -192,8 +204,74 @@ void herak_julia_with_dif_set(void **param, int x, int y)
     param[0] = mlx_new_image(param[0], WIDTH_I, HEIGHT_I);
     create_img(img_struct, param[0]);
 
-    herack_julia(img_struct, 0, -0.25, 1);
+    herack_julia_key(img_struct, 0, 0, 1, x, y);
     mlx_put_image_to_window(param[4], param[5], param[0], 0, 0);
+}
+
+void herack_julia_key(t_img *img, int d_move_x, int d_move_y, int d_zoom, double n_x, double n_y)
+{
+    int max_iteration = 300;
+    //double c_rial = -0.79;
+
+    //double c_imegian = 0.15;
+
+
+    double new_rial =0;
+    double new_imegian;
+
+
+    double old_real = 0;
+    double old_imegien = 0;
+    int x = 0;
+    int y = 0;
+    static double zoom = 1;
+    int color = 0;
+    static double move_x = 0;
+    static double move_y = 0;
+
+    move_x += d_move_x / zoom;
+    move_y += d_move_y / zoom;
+    zoom *= d_zoom;
+    t_point *p = (t_point*)malloc(sizeof(t_point));
+    double c_rial = (n_x - WIDTH_I/2) / (0.5 * zoom * WIDTH_I);
+    double c_imegian = (n_y - HEIGHT_I/2) / (0.5 * zoom * HEIGHT_I);
+    printf("x = %f y = %f c_rial = %f c_imegian = %f\n",n_x, n_y, c_rial, c_imegian);
+
+    while (y < HEIGHT_I)
+    {
+        x = 0;
+        while (x < WIDTH_I)
+        {
+            new_rial =   (x - WIDTH_I/2) / (0.5 * zoom * WIDTH_I) + move_x;
+            new_imegian =  (y - HEIGHT_I/2) / (0.5 * zoom * HEIGHT_I) + move_y;
+            int i = 1;
+            while (i < max_iteration)
+            {
+                old_real = new_rial;
+                old_imegien = new_imegian;
+                new_rial = old_real * old_real  - old_imegien * old_imegien + c_rial;
+                new_imegian = 2 * old_real * old_imegien + c_imegian;
+                if ((new_rial * new_rial + new_imegian * new_imegian) > 4) break;
+                i++;
+
+            }
+            color = get_colour(i % 256, 255, 255 * (i < max_iteration)); // цвет, насыщеность, яркость
+            p->colour = color;
+            p->x = x;
+            p->y = y;
+            put_pixel_to_image(p, img);
+            //printf("%d%%256 = %d \n ",i, i % 256);
+
+
+            //color = get_colour(i % 256, 255, 100);
+
+            //mlx_pixel_put(mlx, w, x, y, color);
+            x++;
+
+        }
+        y++;
+    }
+    free(p);
 }
 
 void herack_mandelbrot(t_img *img, double move_x, double move_y, double zoom)
