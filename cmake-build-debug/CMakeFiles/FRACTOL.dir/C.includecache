@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/nfs/2016/k/kstorozh/FRACTOL/main.c
+/nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h
 mlx.h
 -
 math.h
@@ -17,4 +17,18 @@ unistd.h
 -
 stdlib.h
 -
+libft/libft.h
+/nfs/2016/k/kstorozh/FRACTOL/libft/libft.h
+
+/nfs/2016/k/kstorozh/FRACTOL/colour.c
+FRACTOL.h
+/nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h
+
+/nfs/2016/k/kstorozh/FRACTOL/libft/libft.h
+string.h
+-
+
+/nfs/2016/k/kstorozh/FRACTOL/main.c
+FRACTOL.h
+/nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h
 

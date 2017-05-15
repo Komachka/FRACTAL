@@ -123,6 +123,33 @@ FRACTOL/fast:
 	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/build
 .PHONY : FRACTOL/fast
 
+colour.o: colour.c.o
+
+.PHONY : colour.o
+
+# target to build an object file
+colour.c.o:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/colour.c.o
+.PHONY : colour.c.o
+
+colour.i: colour.c.i
+
+.PHONY : colour.i
+
+# target to preprocess a source file
+colour.c.i:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/colour.c.i
+.PHONY : colour.c.i
+
+colour.s: colour.c.s
+
+.PHONY : colour.s
+
+# target to generate assembly for a file
+colour.c.s:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/colour.c.s
+.PHONY : colour.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... FRACTOL"
+	@echo "... colour.o"
+	@echo "... colour.i"
+	@echo "... colour.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

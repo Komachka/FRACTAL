@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/FRACTOL.dir/main.c.o"
+  "CMakeFiles/FRACTOL.dir/colour.c.o"
   "FRACTOL.pdb"
   "FRACTOL"
 )

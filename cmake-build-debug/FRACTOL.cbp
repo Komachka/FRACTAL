@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h">
+			<Option target="FRACTOL"/>
+		</Unit>
+		<Unit filename="/nfs/2016/k/kstorozh/FRACTOL/colour.c">
+			<Option target="FRACTOL"/>
+		</Unit>
 		<Unit filename="/nfs/2016/k/kstorozh/FRACTOL/main.c">
 			<Option target="FRACTOL"/>
 		</Unit>
