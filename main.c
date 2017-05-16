@@ -112,6 +112,7 @@ int main(int argc, char **argv)
 }
 
 
+
 void create_img_for_fractal(char *fractals) {
     void **params;
     int size_f;
@@ -138,7 +139,12 @@ void create_img_for_fractal(char *fractals) {
             mlx_put_image_to_window(params[0], params[index + 2], params[index], 0, 0);
         i++;
     }
-
+    i = 1;
+    while (i < size_f)
+    {
+        index = get_index(i);
+        mlx_hook(params[index + 2], 17, 1L << 17, exit_x, params);
+    }
     //mlx_hook(params[size_f * 2 + 2], 17, 1L << 17, exit_x, params);
     //mlx_hook(params[size_f * 2 + 2], 2, 1L << 1, my_key_funk, params);
 
