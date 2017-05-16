@@ -123,6 +123,33 @@ FRACTOL/fast:
 	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/build
 .PHONY : FRACTOL/fast
 
+additional.o: additional.c.o
+
+.PHONY : additional.o
+
+# target to build an object file
+additional.c.o:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/additional.c.o
+.PHONY : additional.c.o
+
+additional.i: additional.c.i
+
+.PHONY : additional.i
+
+# target to preprocess a source file
+additional.c.i:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/additional.c.i
+.PHONY : additional.c.i
+
+additional.s: additional.c.s
+
+.PHONY : additional.s
+
+# target to generate assembly for a file
+additional.c.s:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/additional.c.s
+.PHONY : additional.c.s
+
 colour.o: colour.c.o
 
 .PHONY : colour.o
@@ -149,6 +176,60 @@ colour.s: colour.c.s
 colour.c.s:
 	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/colour.c.s
 .PHONY : colour.c.s
+
+image.o: image.c.o
+
+.PHONY : image.o
+
+# target to build an object file
+image.c.o:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/image.c.o
+.PHONY : image.c.o
+
+image.i: image.c.i
+
+.PHONY : image.i
+
+# target to preprocess a source file
+image.c.i:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/image.c.i
+.PHONY : image.c.i
+
+image.s: image.c.s
+
+.PHONY : image.s
+
+# target to generate assembly for a file
+image.c.s:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/image.c.s
+.PHONY : image.c.s
+
+julia.o: julia.c.o
+
+.PHONY : julia.o
+
+# target to build an object file
+julia.c.o:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/julia.c.o
+.PHONY : julia.c.o
+
+julia.i: julia.c.i
+
+.PHONY : julia.i
+
+# target to preprocess a source file
+julia.c.i:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/julia.c.i
+.PHONY : julia.c.i
+
+julia.s: julia.c.s
+
+.PHONY : julia.s
+
+# target to generate assembly for a file
+julia.c.s:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/julia.c.s
+.PHONY : julia.c.s
 
 main.o: main.c.o
 
@@ -177,6 +258,87 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/main.c.s
 .PHONY : main.c.s
 
+maldebrot.o: maldebrot.c.o
+
+.PHONY : maldebrot.o
+
+# target to build an object file
+maldebrot.c.o:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/maldebrot.c.o
+.PHONY : maldebrot.c.o
+
+maldebrot.i: maldebrot.c.i
+
+.PHONY : maldebrot.i
+
+# target to preprocess a source file
+maldebrot.c.i:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/maldebrot.c.i
+.PHONY : maldebrot.c.i
+
+maldebrot.s: maldebrot.c.s
+
+.PHONY : maldebrot.s
+
+# target to generate assembly for a file
+maldebrot.c.s:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/maldebrot.c.s
+.PHONY : maldebrot.c.s
+
+paskal.o: paskal.c.o
+
+.PHONY : paskal.o
+
+# target to build an object file
+paskal.c.o:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/paskal.c.o
+.PHONY : paskal.c.o
+
+paskal.i: paskal.c.i
+
+.PHONY : paskal.i
+
+# target to preprocess a source file
+paskal.c.i:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/paskal.c.i
+.PHONY : paskal.c.i
+
+paskal.s: paskal.c.s
+
+.PHONY : paskal.s
+
+# target to generate assembly for a file
+paskal.c.s:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/paskal.c.s
+.PHONY : paskal.c.s
+
+print.o: print.c.o
+
+.PHONY : print.o
+
+# target to build an object file
+print.c.o:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/print.c.o
+.PHONY : print.c.o
+
+print.i: print.c.i
+
+.PHONY : print.i
+
+# target to preprocess a source file
+print.c.i:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/print.c.i
+.PHONY : print.c.i
+
+print.s: print.c.s
+
+.PHONY : print.s
+
+# target to generate assembly for a file
+print.c.s:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/print.c.s
+.PHONY : print.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +348,30 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... FRACTOL"
+	@echo "... additional.o"
+	@echo "... additional.i"
+	@echo "... additional.s"
 	@echo "... colour.o"
 	@echo "... colour.i"
 	@echo "... colour.s"
+	@echo "... image.o"
+	@echo "... image.i"
+	@echo "... image.s"
+	@echo "... julia.o"
+	@echo "... julia.i"
+	@echo "... julia.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... maldebrot.o"
+	@echo "... maldebrot.i"
+	@echo "... maldebrot.s"
+	@echo "... paskal.o"
+	@echo "... paskal.i"
+	@echo "... paskal.s"
+	@echo "... print.o"
+	@echo "... print.i"
+	@echo "... print.s"
 .PHONY : help
 
 

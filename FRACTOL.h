@@ -81,15 +81,18 @@ typedef struct  s_print_struct
 }              t_print_struct;
 
 
+int get_index(int i);
 
 void    move(void **param, int direction);
+void create_img_for_fractal(char *fractals);
+
 int     my_key_funk(int keykode, void **param);
 int get_colour(double h, double s, double v);
 void create_img(t_img *img_struct, void *img_mlx);
 
-void herack_julia(t_img *img, double move_dx, double move_dy, double d_zoom);
+void draw_julia(t_img *img, double move_dx, double move_dy, double d_zoom);
 
-void herack_mandelbrot(t_img *img, double move_x, double move_y, double zoom);
+void draw_mandelbrot(t_img *img, double move_x, double move_y, double zoom);
 int exit_x(void *par);
 int button_funk(int button, int x, int y, void **param);
 
@@ -114,10 +117,32 @@ void    del_arrey(void **arrey, int size);
 void    swap(double *x1, double *x2);
 void    make_img_line(t_point *p1, t_point *p2, t_img *imege);
 void    print_img_line(t_print_struct *print_stuff, t_img *img, float t, int x);
-//void dryw_pyfagor_tree(t_img *img);
-
+//void draw_pyfagor_tree(t_img *img);
+int     put_pixel_to_image(t_point *p, t_img *image);
 double  to_radians(double degrees);
 
 void dryw_pyfagor_tree_mouse(double a, double size, double x, double y, t_img *img, double degree);
+int count_iteration_julia(t_img *img, int y, int x, int i);
+void x_loop_maldebrot(t_img *img, int x, int y, int i);
+int count_iteration_mandelbrot(t_img *img, double pi, double pr, int i);
+void get_colour_point(t_point *p1, t_point *p2, double size_z, double iterations);
+char *ft_toupper_str(char *str);
+void draw_pyfagor_tree(double size_z, double x, double y, t_img *img);
+void add_valueses(t_img *img_struct);
+void **create_params(int size, char *str);
+
+void create_size_for_img(void **params, int i, char f);
+void x_loop_maldebrot(t_img *img, int x, int y, int i);
+void get_colour_point(t_point *p1, t_point *p2, double size_z, double iterations);
+
+void **create_params(int size, char *str);
+
+
+
+
+
+void add_valueses(t_img *img_struct);
+int count_iteration_mandelbrot(t_img *img, double pi, double pr, int i);
+
 
 #endif //FRACTOL_FRACTOL_H

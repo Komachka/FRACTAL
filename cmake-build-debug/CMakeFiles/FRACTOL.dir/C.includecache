@@ -20,7 +20,19 @@ stdlib.h
 libft/libft.h
 /nfs/2016/k/kstorozh/FRACTOL/libft/libft.h
 
+/nfs/2016/k/kstorozh/FRACTOL/additional.c
+FRACTOL.h
+/nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h
+
 /nfs/2016/k/kstorozh/FRACTOL/colour.c
+FRACTOL.h
+/nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h
+
+/nfs/2016/k/kstorozh/FRACTOL/image.c
+FRACTOL.h
+/nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h
+
+/nfs/2016/k/kstorozh/FRACTOL/julia.c
 FRACTOL.h
 /nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h
 
@@ -29,6 +41,18 @@ string.h
 -
 
 /nfs/2016/k/kstorozh/FRACTOL/main.c
+FRACTOL.h
+/nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h
+
+/nfs/2016/k/kstorozh/FRACTOL/maldebrot.c
+FRACTOL.h
+/nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h
+
+/nfs/2016/k/kstorozh/FRACTOL/paskal.c
+FRACTOL.h
+/nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h
+
+/nfs/2016/k/kstorozh/FRACTOL/print.c
 FRACTOL.h
 /nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h
 

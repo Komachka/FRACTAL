@@ -105,20 +105,176 @@ CMakeFiles/FRACTOL.dir/colour.c.o.provides: CMakeFiles/FRACTOL.dir/colour.c.o.re
 CMakeFiles/FRACTOL.dir/colour.c.o.provides.build: CMakeFiles/FRACTOL.dir/colour.c.o
 
 
+CMakeFiles/FRACTOL.dir/julia.c.o: CMakeFiles/FRACTOL.dir/flags.make
+CMakeFiles/FRACTOL.dir/julia.c.o: ../julia.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/k/kstorozh/FRACTOL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/FRACTOL.dir/julia.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FRACTOL.dir/julia.c.o   -c /nfs/2016/k/kstorozh/FRACTOL/julia.c
+
+CMakeFiles/FRACTOL.dir/julia.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FRACTOL.dir/julia.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/k/kstorozh/FRACTOL/julia.c > CMakeFiles/FRACTOL.dir/julia.c.i
+
+CMakeFiles/FRACTOL.dir/julia.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FRACTOL.dir/julia.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/k/kstorozh/FRACTOL/julia.c -o CMakeFiles/FRACTOL.dir/julia.c.s
+
+CMakeFiles/FRACTOL.dir/julia.c.o.requires:
+
+.PHONY : CMakeFiles/FRACTOL.dir/julia.c.o.requires
+
+CMakeFiles/FRACTOL.dir/julia.c.o.provides: CMakeFiles/FRACTOL.dir/julia.c.o.requires
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/julia.c.o.provides.build
+.PHONY : CMakeFiles/FRACTOL.dir/julia.c.o.provides
+
+CMakeFiles/FRACTOL.dir/julia.c.o.provides.build: CMakeFiles/FRACTOL.dir/julia.c.o
+
+
+CMakeFiles/FRACTOL.dir/maldebrot.c.o: CMakeFiles/FRACTOL.dir/flags.make
+CMakeFiles/FRACTOL.dir/maldebrot.c.o: ../maldebrot.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/k/kstorozh/FRACTOL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/FRACTOL.dir/maldebrot.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FRACTOL.dir/maldebrot.c.o   -c /nfs/2016/k/kstorozh/FRACTOL/maldebrot.c
+
+CMakeFiles/FRACTOL.dir/maldebrot.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FRACTOL.dir/maldebrot.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/k/kstorozh/FRACTOL/maldebrot.c > CMakeFiles/FRACTOL.dir/maldebrot.c.i
+
+CMakeFiles/FRACTOL.dir/maldebrot.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FRACTOL.dir/maldebrot.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/k/kstorozh/FRACTOL/maldebrot.c -o CMakeFiles/FRACTOL.dir/maldebrot.c.s
+
+CMakeFiles/FRACTOL.dir/maldebrot.c.o.requires:
+
+.PHONY : CMakeFiles/FRACTOL.dir/maldebrot.c.o.requires
+
+CMakeFiles/FRACTOL.dir/maldebrot.c.o.provides: CMakeFiles/FRACTOL.dir/maldebrot.c.o.requires
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/maldebrot.c.o.provides.build
+.PHONY : CMakeFiles/FRACTOL.dir/maldebrot.c.o.provides
+
+CMakeFiles/FRACTOL.dir/maldebrot.c.o.provides.build: CMakeFiles/FRACTOL.dir/maldebrot.c.o
+
+
+CMakeFiles/FRACTOL.dir/paskal.c.o: CMakeFiles/FRACTOL.dir/flags.make
+CMakeFiles/FRACTOL.dir/paskal.c.o: ../paskal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/k/kstorozh/FRACTOL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/FRACTOL.dir/paskal.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FRACTOL.dir/paskal.c.o   -c /nfs/2016/k/kstorozh/FRACTOL/paskal.c
+
+CMakeFiles/FRACTOL.dir/paskal.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FRACTOL.dir/paskal.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/k/kstorozh/FRACTOL/paskal.c > CMakeFiles/FRACTOL.dir/paskal.c.i
+
+CMakeFiles/FRACTOL.dir/paskal.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FRACTOL.dir/paskal.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/k/kstorozh/FRACTOL/paskal.c -o CMakeFiles/FRACTOL.dir/paskal.c.s
+
+CMakeFiles/FRACTOL.dir/paskal.c.o.requires:
+
+.PHONY : CMakeFiles/FRACTOL.dir/paskal.c.o.requires
+
+CMakeFiles/FRACTOL.dir/paskal.c.o.provides: CMakeFiles/FRACTOL.dir/paskal.c.o.requires
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/paskal.c.o.provides.build
+.PHONY : CMakeFiles/FRACTOL.dir/paskal.c.o.provides
+
+CMakeFiles/FRACTOL.dir/paskal.c.o.provides.build: CMakeFiles/FRACTOL.dir/paskal.c.o
+
+
+CMakeFiles/FRACTOL.dir/additional.c.o: CMakeFiles/FRACTOL.dir/flags.make
+CMakeFiles/FRACTOL.dir/additional.c.o: ../additional.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/k/kstorozh/FRACTOL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/FRACTOL.dir/additional.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FRACTOL.dir/additional.c.o   -c /nfs/2016/k/kstorozh/FRACTOL/additional.c
+
+CMakeFiles/FRACTOL.dir/additional.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FRACTOL.dir/additional.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/k/kstorozh/FRACTOL/additional.c > CMakeFiles/FRACTOL.dir/additional.c.i
+
+CMakeFiles/FRACTOL.dir/additional.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FRACTOL.dir/additional.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/k/kstorozh/FRACTOL/additional.c -o CMakeFiles/FRACTOL.dir/additional.c.s
+
+CMakeFiles/FRACTOL.dir/additional.c.o.requires:
+
+.PHONY : CMakeFiles/FRACTOL.dir/additional.c.o.requires
+
+CMakeFiles/FRACTOL.dir/additional.c.o.provides: CMakeFiles/FRACTOL.dir/additional.c.o.requires
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/additional.c.o.provides.build
+.PHONY : CMakeFiles/FRACTOL.dir/additional.c.o.provides
+
+CMakeFiles/FRACTOL.dir/additional.c.o.provides.build: CMakeFiles/FRACTOL.dir/additional.c.o
+
+
+CMakeFiles/FRACTOL.dir/print.c.o: CMakeFiles/FRACTOL.dir/flags.make
+CMakeFiles/FRACTOL.dir/print.c.o: ../print.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/k/kstorozh/FRACTOL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/FRACTOL.dir/print.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FRACTOL.dir/print.c.o   -c /nfs/2016/k/kstorozh/FRACTOL/print.c
+
+CMakeFiles/FRACTOL.dir/print.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FRACTOL.dir/print.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/k/kstorozh/FRACTOL/print.c > CMakeFiles/FRACTOL.dir/print.c.i
+
+CMakeFiles/FRACTOL.dir/print.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FRACTOL.dir/print.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/k/kstorozh/FRACTOL/print.c -o CMakeFiles/FRACTOL.dir/print.c.s
+
+CMakeFiles/FRACTOL.dir/print.c.o.requires:
+
+.PHONY : CMakeFiles/FRACTOL.dir/print.c.o.requires
+
+CMakeFiles/FRACTOL.dir/print.c.o.provides: CMakeFiles/FRACTOL.dir/print.c.o.requires
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/print.c.o.provides.build
+.PHONY : CMakeFiles/FRACTOL.dir/print.c.o.provides
+
+CMakeFiles/FRACTOL.dir/print.c.o.provides.build: CMakeFiles/FRACTOL.dir/print.c.o
+
+
+CMakeFiles/FRACTOL.dir/image.c.o: CMakeFiles/FRACTOL.dir/flags.make
+CMakeFiles/FRACTOL.dir/image.c.o: ../image.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/k/kstorozh/FRACTOL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/FRACTOL.dir/image.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FRACTOL.dir/image.c.o   -c /nfs/2016/k/kstorozh/FRACTOL/image.c
+
+CMakeFiles/FRACTOL.dir/image.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FRACTOL.dir/image.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/k/kstorozh/FRACTOL/image.c > CMakeFiles/FRACTOL.dir/image.c.i
+
+CMakeFiles/FRACTOL.dir/image.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FRACTOL.dir/image.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/k/kstorozh/FRACTOL/image.c -o CMakeFiles/FRACTOL.dir/image.c.s
+
+CMakeFiles/FRACTOL.dir/image.c.o.requires:
+
+.PHONY : CMakeFiles/FRACTOL.dir/image.c.o.requires
+
+CMakeFiles/FRACTOL.dir/image.c.o.provides: CMakeFiles/FRACTOL.dir/image.c.o.requires
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/image.c.o.provides.build
+.PHONY : CMakeFiles/FRACTOL.dir/image.c.o.provides
+
+CMakeFiles/FRACTOL.dir/image.c.o.provides.build: CMakeFiles/FRACTOL.dir/image.c.o
+
+
 # Object files for target FRACTOL
 FRACTOL_OBJECTS = \
 "CMakeFiles/FRACTOL.dir/main.c.o" \
-"CMakeFiles/FRACTOL.dir/colour.c.o"
+"CMakeFiles/FRACTOL.dir/colour.c.o" \
+"CMakeFiles/FRACTOL.dir/julia.c.o" \
+"CMakeFiles/FRACTOL.dir/maldebrot.c.o" \
+"CMakeFiles/FRACTOL.dir/paskal.c.o" \
+"CMakeFiles/FRACTOL.dir/additional.c.o" \
+"CMakeFiles/FRACTOL.dir/print.c.o" \
+"CMakeFiles/FRACTOL.dir/image.c.o"
 
 # External object files for target FRACTOL
 FRACTOL_EXTERNAL_OBJECTS =
 
 FRACTOL: CMakeFiles/FRACTOL.dir/main.c.o
 FRACTOL: CMakeFiles/FRACTOL.dir/colour.c.o
+FRACTOL: CMakeFiles/FRACTOL.dir/julia.c.o
+FRACTOL: CMakeFiles/FRACTOL.dir/maldebrot.c.o
+FRACTOL: CMakeFiles/FRACTOL.dir/paskal.c.o
+FRACTOL: CMakeFiles/FRACTOL.dir/additional.c.o
+FRACTOL: CMakeFiles/FRACTOL.dir/print.c.o
+FRACTOL: CMakeFiles/FRACTOL.dir/image.c.o
 FRACTOL: CMakeFiles/FRACTOL.dir/build.make
 FRACTOL: ../libft/libft.a
 FRACTOL: CMakeFiles/FRACTOL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/k/kstorozh/FRACTOL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable FRACTOL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/k/kstorozh/FRACTOL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable FRACTOL"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FRACTOL.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +284,12 @@ CMakeFiles/FRACTOL.dir/build: FRACTOL
 
 CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/main.c.o.requires
 CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/colour.c.o.requires
+CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/julia.c.o.requires
+CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/maldebrot.c.o.requires
+CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/paskal.c.o.requires
+CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/additional.c.o.requires
+CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/print.c.o.requires
+CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/image.c.o.requires
 
 .PHONY : CMakeFiles/FRACTOL.dir/requires
 
