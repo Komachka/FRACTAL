@@ -25,11 +25,11 @@ CMakeFiles/FRACTOL.dir/maldebrot.c.o
  /nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h
  /nfs/2016/k/kstorozh/FRACTOL/libft/libft.h
  /nfs/2016/k/kstorozh/FRACTOL/maldebrot.c
-CMakeFiles/FRACTOL.dir/paskal.c.o
- /nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h
- /nfs/2016/k/kstorozh/FRACTOL/libft/libft.h
- /nfs/2016/k/kstorozh/FRACTOL/paskal.c
 CMakeFiles/FRACTOL.dir/print.c.o
  /nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h
  /nfs/2016/k/kstorozh/FRACTOL/libft/libft.h
  /nfs/2016/k/kstorozh/FRACTOL/print.c
+CMakeFiles/FRACTOL.dir/pyfagor.c.o
+ /nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h
+ /nfs/2016/k/kstorozh/FRACTOL/libft/libft.h
+ /nfs/2016/k/kstorozh/FRACTOL/pyfagor.c

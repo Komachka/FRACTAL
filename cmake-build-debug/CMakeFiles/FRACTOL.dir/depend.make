@@ -25,11 +25,11 @@ CMakeFiles/FRACTOL.dir/maldebrot.c.o: ../FRACTOL.h
 CMakeFiles/FRACTOL.dir/maldebrot.c.o: ../libft/libft.h
 CMakeFiles/FRACTOL.dir/maldebrot.c.o: ../maldebrot.c
 
-CMakeFiles/FRACTOL.dir/paskal.c.o: ../FRACTOL.h
-CMakeFiles/FRACTOL.dir/paskal.c.o: ../libft/libft.h
-CMakeFiles/FRACTOL.dir/paskal.c.o: ../paskal.c
-
 CMakeFiles/FRACTOL.dir/print.c.o: ../FRACTOL.h
 CMakeFiles/FRACTOL.dir/print.c.o: ../libft/libft.h
 CMakeFiles/FRACTOL.dir/print.c.o: ../print.c
+
+CMakeFiles/FRACTOL.dir/pyfagor.c.o: ../FRACTOL.h
+CMakeFiles/FRACTOL.dir/pyfagor.c.o: ../libft/libft.h
+CMakeFiles/FRACTOL.dir/pyfagor.c.o: ../pyfagor.c
 

@@ -153,28 +153,28 @@ CMakeFiles/FRACTOL.dir/maldebrot.c.o.provides: CMakeFiles/FRACTOL.dir/maldebrot.
 CMakeFiles/FRACTOL.dir/maldebrot.c.o.provides.build: CMakeFiles/FRACTOL.dir/maldebrot.c.o
 
 
-CMakeFiles/FRACTOL.dir/paskal.c.o: CMakeFiles/FRACTOL.dir/flags.make
-CMakeFiles/FRACTOL.dir/paskal.c.o: ../paskal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/k/kstorozh/FRACTOL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/FRACTOL.dir/paskal.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FRACTOL.dir/paskal.c.o   -c /nfs/2016/k/kstorozh/FRACTOL/paskal.c
+CMakeFiles/FRACTOL.dir/pyfagor.c.o: CMakeFiles/FRACTOL.dir/flags.make
+CMakeFiles/FRACTOL.dir/pyfagor.c.o: ../pyfagor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/k/kstorozh/FRACTOL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/FRACTOL.dir/pyfagor.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FRACTOL.dir/pyfagor.c.o   -c /nfs/2016/k/kstorozh/FRACTOL/pyfagor.c
 
-CMakeFiles/FRACTOL.dir/paskal.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FRACTOL.dir/paskal.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/k/kstorozh/FRACTOL/paskal.c > CMakeFiles/FRACTOL.dir/paskal.c.i
+CMakeFiles/FRACTOL.dir/pyfagor.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FRACTOL.dir/pyfagor.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/k/kstorozh/FRACTOL/pyfagor.c > CMakeFiles/FRACTOL.dir/pyfagor.c.i
 
-CMakeFiles/FRACTOL.dir/paskal.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FRACTOL.dir/paskal.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/k/kstorozh/FRACTOL/paskal.c -o CMakeFiles/FRACTOL.dir/paskal.c.s
+CMakeFiles/FRACTOL.dir/pyfagor.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FRACTOL.dir/pyfagor.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/k/kstorozh/FRACTOL/pyfagor.c -o CMakeFiles/FRACTOL.dir/pyfagor.c.s
 
-CMakeFiles/FRACTOL.dir/paskal.c.o.requires:
+CMakeFiles/FRACTOL.dir/pyfagor.c.o.requires:
 
-.PHONY : CMakeFiles/FRACTOL.dir/paskal.c.o.requires
+.PHONY : CMakeFiles/FRACTOL.dir/pyfagor.c.o.requires
 
-CMakeFiles/FRACTOL.dir/paskal.c.o.provides: CMakeFiles/FRACTOL.dir/paskal.c.o.requires
-	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/paskal.c.o.provides.build
-.PHONY : CMakeFiles/FRACTOL.dir/paskal.c.o.provides
+CMakeFiles/FRACTOL.dir/pyfagor.c.o.provides: CMakeFiles/FRACTOL.dir/pyfagor.c.o.requires
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/pyfagor.c.o.provides.build
+.PHONY : CMakeFiles/FRACTOL.dir/pyfagor.c.o.provides
 
-CMakeFiles/FRACTOL.dir/paskal.c.o.provides.build: CMakeFiles/FRACTOL.dir/paskal.c.o
+CMakeFiles/FRACTOL.dir/pyfagor.c.o.provides.build: CMakeFiles/FRACTOL.dir/pyfagor.c.o
 
 
 CMakeFiles/FRACTOL.dir/additional.c.o: CMakeFiles/FRACTOL.dir/flags.make
@@ -255,7 +255,7 @@ FRACTOL_OBJECTS = \
 "CMakeFiles/FRACTOL.dir/colour.c.o" \
 "CMakeFiles/FRACTOL.dir/julia.c.o" \
 "CMakeFiles/FRACTOL.dir/maldebrot.c.o" \
-"CMakeFiles/FRACTOL.dir/paskal.c.o" \
+"CMakeFiles/FRACTOL.dir/pyfagor.c.o" \
 "CMakeFiles/FRACTOL.dir/additional.c.o" \
 "CMakeFiles/FRACTOL.dir/print.c.o" \
 "CMakeFiles/FRACTOL.dir/image.c.o"
@@ -267,7 +267,7 @@ FRACTOL: CMakeFiles/FRACTOL.dir/main.c.o
 FRACTOL: CMakeFiles/FRACTOL.dir/colour.c.o
 FRACTOL: CMakeFiles/FRACTOL.dir/julia.c.o
 FRACTOL: CMakeFiles/FRACTOL.dir/maldebrot.c.o
-FRACTOL: CMakeFiles/FRACTOL.dir/paskal.c.o
+FRACTOL: CMakeFiles/FRACTOL.dir/pyfagor.c.o
 FRACTOL: CMakeFiles/FRACTOL.dir/additional.c.o
 FRACTOL: CMakeFiles/FRACTOL.dir/print.c.o
 FRACTOL: CMakeFiles/FRACTOL.dir/image.c.o
@@ -286,7 +286,7 @@ CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/main.c.o.requires
 CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/colour.c.o.requires
 CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/julia.c.o.requires
 CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/maldebrot.c.o.requires
-CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/paskal.c.o.requires
+CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/pyfagor.c.o.requires
 CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/additional.c.o.requires
 CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/print.c.o.requires
 CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/image.c.o.requires

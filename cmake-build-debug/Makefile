@@ -285,33 +285,6 @@ maldebrot.c.s:
 	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/maldebrot.c.s
 .PHONY : maldebrot.c.s
 
-paskal.o: paskal.c.o
-
-.PHONY : paskal.o
-
-# target to build an object file
-paskal.c.o:
-	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/paskal.c.o
-.PHONY : paskal.c.o
-
-paskal.i: paskal.c.i
-
-.PHONY : paskal.i
-
-# target to preprocess a source file
-paskal.c.i:
-	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/paskal.c.i
-.PHONY : paskal.c.i
-
-paskal.s: paskal.c.s
-
-.PHONY : paskal.s
-
-# target to generate assembly for a file
-paskal.c.s:
-	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/paskal.c.s
-.PHONY : paskal.c.s
-
 print.o: print.c.o
 
 .PHONY : print.o
@@ -338,6 +311,33 @@ print.s: print.c.s
 print.c.s:
 	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/print.c.s
 .PHONY : print.c.s
+
+pyfagor.o: pyfagor.c.o
+
+.PHONY : pyfagor.o
+
+# target to build an object file
+pyfagor.c.o:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/pyfagor.c.o
+.PHONY : pyfagor.c.o
+
+pyfagor.i: pyfagor.c.i
+
+.PHONY : pyfagor.i
+
+# target to preprocess a source file
+pyfagor.c.i:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/pyfagor.c.i
+.PHONY : pyfagor.c.i
+
+pyfagor.s: pyfagor.c.s
+
+.PHONY : pyfagor.s
+
+# target to generate assembly for a file
+pyfagor.c.s:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/pyfagor.c.s
+.PHONY : pyfagor.c.s
 
 # Help Target
 help:
@@ -366,12 +366,12 @@ help:
 	@echo "... maldebrot.o"
 	@echo "... maldebrot.i"
 	@echo "... maldebrot.s"
-	@echo "... paskal.o"
-	@echo "... paskal.i"
-	@echo "... paskal.s"
 	@echo "... print.o"
 	@echo "... print.i"
 	@echo "... print.s"
+	@echo "... pyfagor.o"
+	@echo "... pyfagor.i"
+	@echo "... pyfagor.s"
 .PHONY : help
 
 

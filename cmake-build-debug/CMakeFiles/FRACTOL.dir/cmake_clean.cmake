@@ -3,7 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/FRACTOL.dir/colour.c.o"
   "CMakeFiles/FRACTOL.dir/julia.c.o"
   "CMakeFiles/FRACTOL.dir/maldebrot.c.o"
-  "CMakeFiles/FRACTOL.dir/paskal.c.o"
+  "CMakeFiles/FRACTOL.dir/pyfagor.c.o"
   "CMakeFiles/FRACTOL.dir/additional.c.o"
   "CMakeFiles/FRACTOL.dir/print.c.o"
   "CMakeFiles/FRACTOL.dir/image.c.o"

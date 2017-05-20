@@ -4,11 +4,10 @@ void	draw_mandelbrot(t_img *img, double move_x, double move_y, double zoom)
 {
 	int y;
 
-	y = 0;
-	img->zoom *= zoom;
-	img->move_x += move_x;
-	img->move_y += move_y;
-	while (y < HEIGHT_I)
+    y = 0;
+	img->move_x = move_x/zoom;
+	img->move_y = move_y/zoom;
+    while (y < HEIGHT_I)
 	{
 		x_loop_maldebrot(img, 0, y, 1);
 		y++;

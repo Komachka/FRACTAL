@@ -103,10 +103,10 @@
 		<Unit filename="/nfs/2016/k/kstorozh/FRACTOL/maldebrot.c">
 			<Option target="FRACTOL"/>
 		</Unit>
-		<Unit filename="/nfs/2016/k/kstorozh/FRACTOL/paskal.c">
+		<Unit filename="/nfs/2016/k/kstorozh/FRACTOL/print.c">
 			<Option target="FRACTOL"/>
 		</Unit>
-		<Unit filename="/nfs/2016/k/kstorozh/FRACTOL/print.c">
+		<Unit filename="/nfs/2016/k/kstorozh/FRACTOL/pyfagor.c">
 			<Option target="FRACTOL"/>
 		</Unit>
 		<Unit filename="/nfs/2016/k/kstorozh/FRACTOL/CMakeLists.txt">

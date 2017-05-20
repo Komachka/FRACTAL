@@ -9,9 +9,8 @@ void	draw_julia(t_img *img, double move_dx, double move_dy, double d_zoom)
 
 	y = 0;
 	p = (t_point*)malloc(sizeof(t_point));
-	img->move_x += move_dx / img->zoom;
-	img->move_y += move_dy / img->zoom;
-	img->zoom *= d_zoom;
+	img->move_x = move_dx/d_zoom;
+	img->move_y = move_dy/d_zoom;
 	while (y < HEIGHT_I)
 	{
 		x = 0;
@@ -42,8 +41,8 @@ int		count_iteration_julia(t_img *img, int y, int x, int i)
 	{
 		o_r = n_r;
 		o_i = n_i;
-		n_r = o_r * o_r - o_i * o_i + C_RIAL;
-		n_i = 2 * o_r * o_i + C_IMEGIAN;
+		n_r = o_r * o_r - o_i * o_i + img->c_rial;
+		n_i = 2 * o_r * o_i + img->c_imegian;
 		if ((n_r * n_r + n_i * n_i) > 4)
 			break ;
 		i++;
@@ -78,3 +77,4 @@ int		get_colour(double h, double s, double v)
 	return ((int)rgb.r +
 ((int)rgb.g << 8) + ((int)rgb.b << 16));
 }
+

@@ -6,8 +6,8 @@ void	make_img_line(t_point *p1, t_point *p2, t_img *imege)
 
 	if ((ps = create_print_stuff(p1, p2)) == NULL)
 		return ;
-	if (ps->x1 - ps->x0 == 0)
-		return ;
+	/*if (ps->x1 - ps->x0 == 0)
+		return ;*/
 	if (fabs(ps->x0 - ps->x1) < fabs(ps->y0 - ps->y1))
 	{
 		swap(&ps->x0, &ps->y0);
