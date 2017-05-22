@@ -123,6 +123,33 @@ FRACTOL/fast:
 	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/build
 .PHONY : FRACTOL/fast
 
+add_params.o: add_params.c.o
+
+.PHONY : add_params.o
+
+# target to build an object file
+add_params.c.o:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/add_params.c.o
+.PHONY : add_params.c.o
+
+add_params.i: add_params.c.i
+
+.PHONY : add_params.i
+
+# target to preprocess a source file
+add_params.c.i:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/add_params.c.i
+.PHONY : add_params.c.i
+
+add_params.s: add_params.c.s
+
+.PHONY : add_params.s
+
+# target to generate assembly for a file
+add_params.c.s:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/add_params.c.s
+.PHONY : add_params.c.s
+
 additional.o: additional.c.o
 
 .PHONY : additional.o
@@ -149,6 +176,33 @@ additional.s: additional.c.s
 additional.c.s:
 	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/additional.c.s
 .PHONY : additional.c.s
+
+button_funk.o: button_funk.c.o
+
+.PHONY : button_funk.o
+
+# target to build an object file
+button_funk.c.o:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/button_funk.c.o
+.PHONY : button_funk.c.o
+
+button_funk.i: button_funk.c.i
+
+.PHONY : button_funk.i
+
+# target to preprocess a source file
+button_funk.c.i:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/button_funk.c.i
+.PHONY : button_funk.c.i
+
+button_funk.s: button_funk.c.s
+
+.PHONY : button_funk.s
+
+# target to generate assembly for a file
+button_funk.c.s:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/button_funk.c.s
+.PHONY : button_funk.c.s
 
 colour.o: colour.c.o
 
@@ -230,6 +284,33 @@ julia.s: julia.c.s
 julia.c.s:
 	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/julia.c.s
 .PHONY : julia.c.s
+
+key_funk.o: key_funk.c.o
+
+.PHONY : key_funk.o
+
+# target to build an object file
+key_funk.c.o:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/key_funk.c.o
+.PHONY : key_funk.c.o
+
+key_funk.i: key_funk.c.i
+
+.PHONY : key_funk.i
+
+# target to preprocess a source file
+key_funk.c.i:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/key_funk.c.i
+.PHONY : key_funk.c.i
+
+key_funk.s: key_funk.c.s
+
+.PHONY : key_funk.s
+
+# target to generate assembly for a file
+key_funk.c.s:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/key_funk.c.s
+.PHONY : key_funk.c.s
 
 main.o: main.c.o
 
@@ -339,6 +420,60 @@ pyfagor.c.s:
 	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/pyfagor.c.s
 .PHONY : pyfagor.c.s
 
+pyfagor_time.o: pyfagor_time.c.o
+
+.PHONY : pyfagor_time.o
+
+# target to build an object file
+pyfagor_time.c.o:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/pyfagor_time.c.o
+.PHONY : pyfagor_time.c.o
+
+pyfagor_time.i: pyfagor_time.c.i
+
+.PHONY : pyfagor_time.i
+
+# target to preprocess a source file
+pyfagor_time.c.i:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/pyfagor_time.c.i
+.PHONY : pyfagor_time.c.i
+
+pyfagor_time.s: pyfagor_time.c.s
+
+.PHONY : pyfagor_time.s
+
+# target to generate assembly for a file
+pyfagor_time.c.s:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/pyfagor_time.c.s
+.PHONY : pyfagor_time.c.s
+
+string_funk.o: string_funk.c.o
+
+.PHONY : string_funk.o
+
+# target to build an object file
+string_funk.c.o:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/string_funk.c.o
+.PHONY : string_funk.c.o
+
+string_funk.i: string_funk.c.i
+
+.PHONY : string_funk.i
+
+# target to preprocess a source file
+string_funk.c.i:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/string_funk.c.i
+.PHONY : string_funk.c.i
+
+string_funk.s: string_funk.c.s
+
+.PHONY : string_funk.s
+
+# target to generate assembly for a file
+string_funk.c.s:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/string_funk.c.s
+.PHONY : string_funk.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -348,9 +483,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... FRACTOL"
+	@echo "... add_params.o"
+	@echo "... add_params.i"
+	@echo "... add_params.s"
 	@echo "... additional.o"
 	@echo "... additional.i"
 	@echo "... additional.s"
+	@echo "... button_funk.o"
+	@echo "... button_funk.i"
+	@echo "... button_funk.s"
 	@echo "... colour.o"
 	@echo "... colour.i"
 	@echo "... colour.s"
@@ -360,6 +501,9 @@ help:
 	@echo "... julia.o"
 	@echo "... julia.i"
 	@echo "... julia.s"
+	@echo "... key_funk.o"
+	@echo "... key_funk.i"
+	@echo "... key_funk.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -372,6 +516,12 @@ help:
 	@echo "... pyfagor.o"
 	@echo "... pyfagor.i"
 	@echo "... pyfagor.s"
+	@echo "... pyfagor_time.o"
+	@echo "... pyfagor_time.i"
+	@echo "... pyfagor_time.s"
+	@echo "... string_funk.o"
+	@echo "... string_funk.i"
+	@echo "... string_funk.s"
 .PHONY : help
 
 

@@ -249,6 +249,126 @@ CMakeFiles/FRACTOL.dir/image.c.o.provides: CMakeFiles/FRACTOL.dir/image.c.o.requ
 CMakeFiles/FRACTOL.dir/image.c.o.provides.build: CMakeFiles/FRACTOL.dir/image.c.o
 
 
+CMakeFiles/FRACTOL.dir/key_funk.c.o: CMakeFiles/FRACTOL.dir/flags.make
+CMakeFiles/FRACTOL.dir/key_funk.c.o: ../key_funk.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/k/kstorozh/FRACTOL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/FRACTOL.dir/key_funk.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FRACTOL.dir/key_funk.c.o   -c /nfs/2016/k/kstorozh/FRACTOL/key_funk.c
+
+CMakeFiles/FRACTOL.dir/key_funk.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FRACTOL.dir/key_funk.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/k/kstorozh/FRACTOL/key_funk.c > CMakeFiles/FRACTOL.dir/key_funk.c.i
+
+CMakeFiles/FRACTOL.dir/key_funk.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FRACTOL.dir/key_funk.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/k/kstorozh/FRACTOL/key_funk.c -o CMakeFiles/FRACTOL.dir/key_funk.c.s
+
+CMakeFiles/FRACTOL.dir/key_funk.c.o.requires:
+
+.PHONY : CMakeFiles/FRACTOL.dir/key_funk.c.o.requires
+
+CMakeFiles/FRACTOL.dir/key_funk.c.o.provides: CMakeFiles/FRACTOL.dir/key_funk.c.o.requires
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/key_funk.c.o.provides.build
+.PHONY : CMakeFiles/FRACTOL.dir/key_funk.c.o.provides
+
+CMakeFiles/FRACTOL.dir/key_funk.c.o.provides.build: CMakeFiles/FRACTOL.dir/key_funk.c.o
+
+
+CMakeFiles/FRACTOL.dir/button_funk.c.o: CMakeFiles/FRACTOL.dir/flags.make
+CMakeFiles/FRACTOL.dir/button_funk.c.o: ../button_funk.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/k/kstorozh/FRACTOL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/FRACTOL.dir/button_funk.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FRACTOL.dir/button_funk.c.o   -c /nfs/2016/k/kstorozh/FRACTOL/button_funk.c
+
+CMakeFiles/FRACTOL.dir/button_funk.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FRACTOL.dir/button_funk.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/k/kstorozh/FRACTOL/button_funk.c > CMakeFiles/FRACTOL.dir/button_funk.c.i
+
+CMakeFiles/FRACTOL.dir/button_funk.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FRACTOL.dir/button_funk.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/k/kstorozh/FRACTOL/button_funk.c -o CMakeFiles/FRACTOL.dir/button_funk.c.s
+
+CMakeFiles/FRACTOL.dir/button_funk.c.o.requires:
+
+.PHONY : CMakeFiles/FRACTOL.dir/button_funk.c.o.requires
+
+CMakeFiles/FRACTOL.dir/button_funk.c.o.provides: CMakeFiles/FRACTOL.dir/button_funk.c.o.requires
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/button_funk.c.o.provides.build
+.PHONY : CMakeFiles/FRACTOL.dir/button_funk.c.o.provides
+
+CMakeFiles/FRACTOL.dir/button_funk.c.o.provides.build: CMakeFiles/FRACTOL.dir/button_funk.c.o
+
+
+CMakeFiles/FRACTOL.dir/string_funk.c.o: CMakeFiles/FRACTOL.dir/flags.make
+CMakeFiles/FRACTOL.dir/string_funk.c.o: ../string_funk.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/k/kstorozh/FRACTOL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/FRACTOL.dir/string_funk.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FRACTOL.dir/string_funk.c.o   -c /nfs/2016/k/kstorozh/FRACTOL/string_funk.c
+
+CMakeFiles/FRACTOL.dir/string_funk.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FRACTOL.dir/string_funk.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/k/kstorozh/FRACTOL/string_funk.c > CMakeFiles/FRACTOL.dir/string_funk.c.i
+
+CMakeFiles/FRACTOL.dir/string_funk.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FRACTOL.dir/string_funk.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/k/kstorozh/FRACTOL/string_funk.c -o CMakeFiles/FRACTOL.dir/string_funk.c.s
+
+CMakeFiles/FRACTOL.dir/string_funk.c.o.requires:
+
+.PHONY : CMakeFiles/FRACTOL.dir/string_funk.c.o.requires
+
+CMakeFiles/FRACTOL.dir/string_funk.c.o.provides: CMakeFiles/FRACTOL.dir/string_funk.c.o.requires
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/string_funk.c.o.provides.build
+.PHONY : CMakeFiles/FRACTOL.dir/string_funk.c.o.provides
+
+CMakeFiles/FRACTOL.dir/string_funk.c.o.provides.build: CMakeFiles/FRACTOL.dir/string_funk.c.o
+
+
+CMakeFiles/FRACTOL.dir/add_params.c.o: CMakeFiles/FRACTOL.dir/flags.make
+CMakeFiles/FRACTOL.dir/add_params.c.o: ../add_params.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/k/kstorozh/FRACTOL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/FRACTOL.dir/add_params.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FRACTOL.dir/add_params.c.o   -c /nfs/2016/k/kstorozh/FRACTOL/add_params.c
+
+CMakeFiles/FRACTOL.dir/add_params.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FRACTOL.dir/add_params.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/k/kstorozh/FRACTOL/add_params.c > CMakeFiles/FRACTOL.dir/add_params.c.i
+
+CMakeFiles/FRACTOL.dir/add_params.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FRACTOL.dir/add_params.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/k/kstorozh/FRACTOL/add_params.c -o CMakeFiles/FRACTOL.dir/add_params.c.s
+
+CMakeFiles/FRACTOL.dir/add_params.c.o.requires:
+
+.PHONY : CMakeFiles/FRACTOL.dir/add_params.c.o.requires
+
+CMakeFiles/FRACTOL.dir/add_params.c.o.provides: CMakeFiles/FRACTOL.dir/add_params.c.o.requires
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/add_params.c.o.provides.build
+.PHONY : CMakeFiles/FRACTOL.dir/add_params.c.o.provides
+
+CMakeFiles/FRACTOL.dir/add_params.c.o.provides.build: CMakeFiles/FRACTOL.dir/add_params.c.o
+
+
+CMakeFiles/FRACTOL.dir/pyfagor_time.c.o: CMakeFiles/FRACTOL.dir/flags.make
+CMakeFiles/FRACTOL.dir/pyfagor_time.c.o: ../pyfagor_time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/k/kstorozh/FRACTOL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/FRACTOL.dir/pyfagor_time.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FRACTOL.dir/pyfagor_time.c.o   -c /nfs/2016/k/kstorozh/FRACTOL/pyfagor_time.c
+
+CMakeFiles/FRACTOL.dir/pyfagor_time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FRACTOL.dir/pyfagor_time.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/k/kstorozh/FRACTOL/pyfagor_time.c > CMakeFiles/FRACTOL.dir/pyfagor_time.c.i
+
+CMakeFiles/FRACTOL.dir/pyfagor_time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FRACTOL.dir/pyfagor_time.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/k/kstorozh/FRACTOL/pyfagor_time.c -o CMakeFiles/FRACTOL.dir/pyfagor_time.c.s
+
+CMakeFiles/FRACTOL.dir/pyfagor_time.c.o.requires:
+
+.PHONY : CMakeFiles/FRACTOL.dir/pyfagor_time.c.o.requires
+
+CMakeFiles/FRACTOL.dir/pyfagor_time.c.o.provides: CMakeFiles/FRACTOL.dir/pyfagor_time.c.o.requires
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/pyfagor_time.c.o.provides.build
+.PHONY : CMakeFiles/FRACTOL.dir/pyfagor_time.c.o.provides
+
+CMakeFiles/FRACTOL.dir/pyfagor_time.c.o.provides.build: CMakeFiles/FRACTOL.dir/pyfagor_time.c.o
+
+
 # Object files for target FRACTOL
 FRACTOL_OBJECTS = \
 "CMakeFiles/FRACTOL.dir/main.c.o" \
@@ -258,7 +378,12 @@ FRACTOL_OBJECTS = \
 "CMakeFiles/FRACTOL.dir/pyfagor.c.o" \
 "CMakeFiles/FRACTOL.dir/additional.c.o" \
 "CMakeFiles/FRACTOL.dir/print.c.o" \
-"CMakeFiles/FRACTOL.dir/image.c.o"
+"CMakeFiles/FRACTOL.dir/image.c.o" \
+"CMakeFiles/FRACTOL.dir/key_funk.c.o" \
+"CMakeFiles/FRACTOL.dir/button_funk.c.o" \
+"CMakeFiles/FRACTOL.dir/string_funk.c.o" \
+"CMakeFiles/FRACTOL.dir/add_params.c.o" \
+"CMakeFiles/FRACTOL.dir/pyfagor_time.c.o"
 
 # External object files for target FRACTOL
 FRACTOL_EXTERNAL_OBJECTS =
@@ -271,10 +396,15 @@ FRACTOL: CMakeFiles/FRACTOL.dir/pyfagor.c.o
 FRACTOL: CMakeFiles/FRACTOL.dir/additional.c.o
 FRACTOL: CMakeFiles/FRACTOL.dir/print.c.o
 FRACTOL: CMakeFiles/FRACTOL.dir/image.c.o
+FRACTOL: CMakeFiles/FRACTOL.dir/key_funk.c.o
+FRACTOL: CMakeFiles/FRACTOL.dir/button_funk.c.o
+FRACTOL: CMakeFiles/FRACTOL.dir/string_funk.c.o
+FRACTOL: CMakeFiles/FRACTOL.dir/add_params.c.o
+FRACTOL: CMakeFiles/FRACTOL.dir/pyfagor_time.c.o
 FRACTOL: CMakeFiles/FRACTOL.dir/build.make
 FRACTOL: ../libft/libft.a
 FRACTOL: CMakeFiles/FRACTOL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/k/kstorozh/FRACTOL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable FRACTOL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/k/kstorozh/FRACTOL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking C executable FRACTOL"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FRACTOL.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -290,6 +420,11 @@ CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/pyfagor.c.o.requires
 CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/additional.c.o.requires
 CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/print.c.o.requires
 CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/image.c.o.requires
+CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/key_funk.c.o.requires
+CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/button_funk.c.o.requires
+CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/string_funk.c.o.requires
+CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/add_params.c.o.requires
+CMakeFiles/FRACTOL.dir/requires: CMakeFiles/FRACTOL.dir/pyfagor_time.c.o.requires
 
 .PHONY : CMakeFiles/FRACTOL.dir/requires
 

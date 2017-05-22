@@ -82,19 +82,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h">
+		<Unit filename="/nfs/2016/k/kstorozh/FRACTOL/add_params.c">
 			<Option target="FRACTOL"/>
 		</Unit>
 		<Unit filename="/nfs/2016/k/kstorozh/FRACTOL/additional.c">
 			<Option target="FRACTOL"/>
 		</Unit>
+		<Unit filename="/nfs/2016/k/kstorozh/FRACTOL/button_funk.c">
+			<Option target="FRACTOL"/>
+		</Unit>
 		<Unit filename="/nfs/2016/k/kstorozh/FRACTOL/colour.c">
+			<Option target="FRACTOL"/>
+		</Unit>
+		<Unit filename="/nfs/2016/k/kstorozh/FRACTOL/fractol.h">
 			<Option target="FRACTOL"/>
 		</Unit>
 		<Unit filename="/nfs/2016/k/kstorozh/FRACTOL/image.c">
 			<Option target="FRACTOL"/>
 		</Unit>
 		<Unit filename="/nfs/2016/k/kstorozh/FRACTOL/julia.c">
+			<Option target="FRACTOL"/>
+		</Unit>
+		<Unit filename="/nfs/2016/k/kstorozh/FRACTOL/key_funk.c">
 			<Option target="FRACTOL"/>
 		</Unit>
 		<Unit filename="/nfs/2016/k/kstorozh/FRACTOL/main.c">
@@ -107,6 +116,12 @@
 			<Option target="FRACTOL"/>
 		</Unit>
 		<Unit filename="/nfs/2016/k/kstorozh/FRACTOL/pyfagor.c">
+			<Option target="FRACTOL"/>
+		</Unit>
+		<Unit filename="/nfs/2016/k/kstorozh/FRACTOL/pyfagor_time.c">
+			<Option target="FRACTOL"/>
+		</Unit>
+		<Unit filename="/nfs/2016/k/kstorozh/FRACTOL/string_funk.c">
 			<Option target="FRACTOL"/>
 		</Unit>
 		<Unit filename="/nfs/2016/k/kstorozh/FRACTOL/CMakeLists.txt">

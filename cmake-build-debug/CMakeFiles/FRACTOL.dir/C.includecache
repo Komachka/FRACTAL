@@ -6,7 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h
+/nfs/2016/k/kstorozh/FRACTOL/add_params.c
+fractol.h
+/nfs/2016/k/kstorozh/FRACTOL/fractol.h
+
+/nfs/2016/k/kstorozh/FRACTOL/additional.c
+fractol.h
+/nfs/2016/k/kstorozh/FRACTOL/fractol.h
+
+/nfs/2016/k/kstorozh/FRACTOL/button_funk.c
+fractol.h
+/nfs/2016/k/kstorozh/FRACTOL/fractol.h
+
+/nfs/2016/k/kstorozh/FRACTOL/colour.c
+fractol.h
+/nfs/2016/k/kstorozh/FRACTOL/fractol.h
+
+/nfs/2016/k/kstorozh/FRACTOL/fractol.h
 mlx.h
 -
 math.h
@@ -20,39 +36,43 @@ stdlib.h
 libft/libft.h
 /nfs/2016/k/kstorozh/FRACTOL/libft/libft.h
 
-/nfs/2016/k/kstorozh/FRACTOL/additional.c
-FRACTOL.h
-/nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h
-
-/nfs/2016/k/kstorozh/FRACTOL/colour.c
-FRACTOL.h
-/nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h
-
 /nfs/2016/k/kstorozh/FRACTOL/image.c
-FRACTOL.h
-/nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h
+fractol.h
+/nfs/2016/k/kstorozh/FRACTOL/fractol.h
 
 /nfs/2016/k/kstorozh/FRACTOL/julia.c
-FRACTOL.h
-/nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h
+fractol.h
+/nfs/2016/k/kstorozh/FRACTOL/fractol.h
+
+/nfs/2016/k/kstorozh/FRACTOL/key_funk.c
+fractol.h
+/nfs/2016/k/kstorozh/FRACTOL/fractol.h
 
 /nfs/2016/k/kstorozh/FRACTOL/libft/libft.h
 string.h
 -
 
 /nfs/2016/k/kstorozh/FRACTOL/main.c
-FRACTOL.h
-/nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h
+fractol.h
+/nfs/2016/k/kstorozh/FRACTOL/fractol.h
 
 /nfs/2016/k/kstorozh/FRACTOL/maldebrot.c
-FRACTOL.h
-/nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h
+fractol.h
+/nfs/2016/k/kstorozh/FRACTOL/fractol.h
 
 /nfs/2016/k/kstorozh/FRACTOL/print.c
-FRACTOL.h
-/nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h
+fractol.h
+/nfs/2016/k/kstorozh/FRACTOL/fractol.h
 
 /nfs/2016/k/kstorozh/FRACTOL/pyfagor.c
-FRACTOL.h
-/nfs/2016/k/kstorozh/FRACTOL/FRACTOL.h
+fractol.h
+/nfs/2016/k/kstorozh/FRACTOL/fractol.h
+
+/nfs/2016/k/kstorozh/FRACTOL/pyfagor_time.c
+fractol.h
+/nfs/2016/k/kstorozh/FRACTOL/fractol.h
+
+/nfs/2016/k/kstorozh/FRACTOL/string_funk.c
+fractol.h
+/nfs/2016/k/kstorozh/FRACTOL/fractol.h
 

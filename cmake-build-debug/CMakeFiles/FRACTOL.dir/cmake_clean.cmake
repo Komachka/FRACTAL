@@ -7,6 +7,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/FRACTOL.dir/additional.c.o"
   "CMakeFiles/FRACTOL.dir/print.c.o"
   "CMakeFiles/FRACTOL.dir/image.c.o"
+  "CMakeFiles/FRACTOL.dir/key_funk.c.o"
+  "CMakeFiles/FRACTOL.dir/button_funk.c.o"
+  "CMakeFiles/FRACTOL.dir/string_funk.c.o"
+  "CMakeFiles/FRACTOL.dir/add_params.c.o"
+  "CMakeFiles/FRACTOL.dir/pyfagor_time.c.o"
   "FRACTOL.pdb"
   "FRACTOL"
 )
